@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#start {
+    margin: 20px auto;
+    display: block;
+    width: 33vw;
+    height: 20vh;
+}
+
+.buttons button {
+    width: 30vw;
+    height: 10vh;
+}
+
+#p1, #p2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#p1_hand, #p2_hand {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#p1_hand img, #p2_hand img {
+    width: 80px;
+    height: auto;
+}

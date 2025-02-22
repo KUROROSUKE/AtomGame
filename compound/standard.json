@@ -1,0 +1,763 @@
+{
+    "material": [
+        {
+            "name": "水素",
+            "formula": "H2",
+            "point": 5,
+            "components": {
+                "H": 2
+            }
+        },
+        {
+            "name": "酸素",
+            "formula": "O2",
+            "point": 5,
+            "components": {
+                "O": 2
+            }
+        },
+        {
+            "name": "窒素",
+            "formula": "N2",
+            "point": 5,
+            "components": {
+                "N": 2
+            }
+        },
+        {
+            "name": "塩素",
+            "formula": "Cl2",
+            "point": 7,
+            "components": {
+                "Cl": 2
+            }
+        },
+        {
+            "name": "ヨウ素",
+            "formula": "I2",
+            "point": 15,
+            "components": {
+                "I": 2
+            }
+        },
+        {
+            "name": "水",
+            "formula": "H2O",
+            "point": 10,
+            "components": {
+                "H": 2,
+                "O": 1
+            }
+        },
+        {
+            "name": "過酸化水素",
+            "formula": "H2O2",
+            "point": 15,
+            "components": {
+                "H": 2,
+                "O": 2
+            }
+        },
+        {
+            "name": "硫化水素",
+            "formula": "H2S",
+            "point": 10,
+            "components": {
+                "H": 2,
+                "S": 1
+            }
+        },
+        {
+            "name": "フッ化水素",
+            "formula": "HF",
+            "point": 10,
+            "components": {
+                "H": 1,
+                "F": 1
+            }
+        },
+        {
+            "name": "塩化水素",
+            "formula": "HCl",
+            "point": 15,
+            "components": {
+                "H": 1,
+                "Cl": 1
+            }
+        },
+        {
+            "name": "臭化水素",
+            "formula": "HBr",
+            "point": 17,
+            "components": {
+                "H": 1,
+                "Br": 1
+            }
+        },
+        {
+            "name": "ヨウ化水素",
+            "formula": "HI",
+            "point": 15,
+            "components": {
+                "H": 1,
+                "I": 1
+            }
+        },
+        {
+            "name": "酢酸",
+            "formula": "CH3COOH",
+            "point": 50,
+            "components": {
+                "H": 4,
+                "C": 2,
+                "O": 2
+            }
+        },
+        {
+            "name": "炭酸",
+            "formula": "H2CO3",
+            "point": 35,
+            "components": {
+                "H": 2,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "硝酸",
+            "formula": "HNO3",
+            "point": 30,
+            "components": {
+                "H": 1,
+                "N": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "硫酸",
+            "formula": "H2SO4",
+            "point": 45,
+            "components": {
+                "H": 2,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "二酸化炭素",
+            "formula": "CO2",
+            "point": 7,
+            "components": {
+                "C": 1,
+                "O": 2
+            }
+        },
+        {
+            "name": "一酸化炭素",
+            "formula": "CO",
+            "point": 5,
+            "components": {
+                "C": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "二酸化窒素",
+            "formula": "NO2",
+            "point": 7,
+            "components": {
+                "N": 1,
+                "O": 2
+            }
+        },
+        {
+            "name": "一酸化窒素",
+            "formula": "NO",
+            "point": 5,
+            "components": {
+                "N": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "二酸化硫黄",
+            "formula": "SO2",
+            "point": 10,
+            "components": {
+                "S": 1,
+                "O": 2
+            }
+        },
+        {
+            "name": "オゾン",
+            "formula": "O3",
+            "point": 12,
+            "components": {
+                "O": 3
+            }
+        },
+        {
+            "name": "アンモニア",
+            "formula": "NH3",
+            "point": 15,
+            "components": {
+                "H": 3,
+                "N": 1
+            }
+        },
+        {
+            "name": "酢酸ナトリウム",
+            "formula": "CH3COOHNa",
+            "point": 100,
+            "components": {
+                "C": 2,
+                "O": 2,
+                "H": 4,
+                "Na": 1
+            }
+        },
+        {
+            "name": "塩化ナトリウム",
+            "formula": "NaCl",
+            "point": 20,
+            "components": {
+                "Na": 1,
+                "Cl": 1
+            }
+        },
+        {
+            "name": "塩化カリウム",
+            "formula": "KCl",
+            "point": 20,
+            "components": {
+                "K": 1,
+                "Cl": 1
+            }
+        },
+        {
+            "name": "塩化マグネシウム",
+            "formula": "MgCl2",
+            "point": 30,
+            "components": {
+                "Mg": 1,
+                "Cl": 2
+            }
+        },
+        {
+            "name": "塩化カルシウム",
+            "formula": "CaCl2",
+            "point": 30,
+            "components": {
+                "Ca": 1,
+                "Cl": 2
+            }
+        },
+        {
+            "name": "塩化バリウム",
+            "formula": "BaCl2",
+            "point": 30,
+            "components": {
+                "Ba": 1,
+                "Cl": 2
+            }
+        },
+        {
+            "name": "塩化アルミニウム",
+            "formula": "AlCl3",
+            "point": 40,
+            "components": {
+                "Al": 1,
+                "Cl": 3
+            }
+        },
+        {
+            "name": "塩化アンモニウム",
+            "formula": "NH4Cl",
+            "point": 35,
+            "components": {
+                "H": 4,
+                "N": 1,
+                "Cl": 1
+            }
+        },
+        {
+            "name": "塩化銀",
+            "formula": "AgCl",
+            "point": 25,
+            "components": {
+                "Ag": 1,
+                "Cl": 1
+            }
+        },
+        {
+            "name": "塩化亜鉛",
+            "formula": "ZnCl2",
+            "point": 35,
+            "components": {
+                "Zn": 1,
+                "Cl": 2
+            }
+        },
+        {
+            "name": "塩化銅（Ⅱ）",
+            "formula": "CuCl2",
+            "point": 35,
+            "components": {
+                "Cu": 1,
+                "Cl": 2
+            }
+        },
+        {
+            "name": "硫化銅（Ⅱ）",
+            "formula": "CuS",
+            "point": 25,
+            "components": {
+                "Cu": 1,
+                "S": 1
+            }
+        },
+        {
+            "name": "硫化鉄（Ⅱ）",
+            "formula": "FeS",
+            "point": 25,
+            "components": {
+                "Fe": 1,
+                "S": 1
+            }
+        },
+        {
+            "name": "硫化ナトリウム",
+            "formula": "Na2S",
+            "point": 30,
+            "components": {
+                "S": 1,
+                "Na": 2
+            }
+        },
+        {
+            "name": "硫化亜鉛",
+            "formula": "ZnS",
+            "point": 20,
+            "components": {
+                "Zn": 1,
+                "S": 1
+            }
+        },
+        {
+            "name": "硫化カルシウム",
+            "formula": "CaS",
+            "point": 20,
+            "components": {
+                "Ca": 1,
+                "S": 1
+            }
+        },
+        {
+            "name": "硫化銅（Ⅱ）",
+            "formula": "CuSO4",
+            "point": 55,
+            "components": {
+                "Cu": 1,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "硫化鉄（Ⅱ）",
+            "formula": "FeSO4",
+            "point": 55,
+            "components": {
+                "Fe": 1,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "硫化ナトリウム",
+            "formula": "Na2SO4",
+            "point": 60,
+            "components": {
+                "Na": 2,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "硫化カリウム",
+            "formula": "K2SO4",
+            "point": 60,
+            "components": {
+                "K": 2,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "硫酸カルシウム",
+            "formula": "CaSO4",
+            "point": 60,
+            "components": {
+                "Ca": 1,
+                "S": 1,
+                "O": 4
+            }
+        },
+        {
+            "name": "硝酸銅（Ⅱ）",
+            "formula": "Cu(NO3)2",
+            "point": 140,
+            "components": {
+                "Cu": 1,
+                "N": 2,
+                "O": 6
+            }
+        },
+        {
+            "name": "硝酸銀",
+            "formula": "AgNO3",
+            "point": 45,
+            "components": {
+                "Ag": 1,
+                "N": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "硝酸ナトリウム",
+            "formula": "NaNO3",
+            "point": 45,
+            "components": {
+                "Na": 1,
+                "N": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "硝酸カリウム",
+            "formula": "KNO3",
+            "point": 45,
+            "components": {
+                "K": 1,
+                "N": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "硝酸カルシウム",
+            "formula": "Ca(NO3)2",
+            "point": 140,
+            "components": {
+                "Ca": 1,
+                "N": 2,
+                "O": 6
+            }
+        },
+        {
+            "name": "炭酸ナトリウム",
+            "formula": "Na2CO3",
+            "point": 65,
+            "components": {
+                "Na": 2,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "炭酸水素ナトリウム",
+            "formula": "NaHCO3",
+            "point": 65,
+            "components": {
+                "Na": 1,
+                "H": 1,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "炭酸マグネシウム",
+            "formula": "MgCO3",
+            "point": 60,
+            "components": {
+                "Mg": 1,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "炭酸カルシウム",
+            "formula": "CaCO3",
+            "point": 60,
+            "components": {
+                "Ca": 1,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "炭酸バリウム",
+            "formula": "BaCO3",
+            "point": 60,
+            "components": {
+                "Ba": 1,
+                "C": 1,
+                "O": 3
+            }
+        },
+        {
+            "name": "炭酸アンモニウム",
+            "formula": "(NH4)2CO3",
+            "point": 560,
+            "components": {
+                "N": 2,
+                "H": 8,
+                "C": 1,
+                "O" :3
+            }
+        },
+        {
+            "name": "水酸化ナトリウム",
+            "formula": "NaOH",
+            "point": 45,
+            "components": {
+                "Na": 1,
+                "O": 1,
+                "H": 1
+            }
+        },
+        {
+            "name": "水酸化カリウム",
+            "formula": "KOH",
+            "point": 45,
+            "components": {
+                "K": 1,
+                "O": 1,
+                "H": 1
+            }
+        },
+        {
+            "name": "水酸化カルシウム",
+            "formula": "Ca(OH)2",
+            "point": 75,
+            "components": {
+                "Ca": 1,
+                "O": 2,
+                "H": 2
+            }
+        },
+        {
+            "name": "水酸化アルミニウム",
+            "formula": "Al(OH)3",
+            "point": 75,
+            "components": {
+                "Al": 1,
+                "O": 3,
+                "H": 3
+            }
+        },
+        {
+            "name": "水酸化バリウム",
+            "formula": "Ba(OH)2",
+            "point": 75,
+            "components": {
+                "Ba": 1,
+                "O": 2,
+                "H": 2
+            }
+        },
+        {
+            "name": "酸化マグネシウム",
+            "formula": "MgO",
+            "point": 17,
+            "components": {
+                "Mg": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "酸化カルシウム",
+            "formula": "CaO",
+            "point": 17,
+            "components": {
+                "Ca": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "酸化アルミニウム",
+            "formula": "Al2O3",
+            "point": 75,
+            "components": {
+                "Al": 2,
+                "O": 3
+            }
+        },
+        {
+            "name": "酸化鉄（Ⅱ）",
+            "formula": "FeO",
+            "point": 15,
+            "components": {
+                "Fe": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "酸化鉄（Ⅲ）",
+            "formula": "Fe2O3",
+            "point": 55,
+            "components": {
+                "Fe": 2,
+                "O": 3
+            }
+        },
+        {
+            "name": "酸化鉄（Ⅳ）",
+            "formula": "Fe3O4",
+            "point": 90,
+            "components": {
+                "Fe": 3,
+                "O": 4
+            }
+        },
+        {
+            "name": "酸化亜鉛",
+            "formula": "ZnO",
+            "point": 15,
+            "components": {
+                "Zn": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "メタン",
+            "formula": "CH4",
+            "point": 30,
+            "components": {
+                "C": 1,
+                "H": 4
+            }
+        },
+        {
+            "name": "エタン",
+            "formula": "C2H6",
+            "point": 65,
+            "components": {
+                "C": 2,
+                "H": 6
+            }
+        },
+        {
+            "name": "プロパン",
+            "formula": "C3H8",
+            "point": 120,
+            "components": {
+                "C": 3,
+                "H": 8
+            }
+        },
+        {
+            "name": "エチレン",
+            "formula": "C2H4",
+            "point": 55,
+            "components": {
+                "C": 2,
+                "H": 4
+            }
+        },
+        {
+            "name": "プロピレン",
+            "formula": "C3H6",
+            "point": 105,
+            "components": {
+                "C": 3,
+                "H": 6
+            }
+        },
+        {
+            "name": "ダイヤモンド",
+            "formula": "C8",
+            "point": 120,
+            "components": {
+                "C": 8
+            }
+        },
+        {
+            "name": "酸化リチウム",
+            "formula": "Li2O",
+            "point": 35,
+            "components": {
+                "Li": 2,
+                "O": 1
+            }
+        },
+        {
+            "name": "メチル",
+            "formula": "CH3",
+            "point": 20,
+            "components": {
+                "C": 1,
+                "H": 3
+            }
+        },
+        {
+            "name": "リン酸",
+            "formula": "H3PO4",
+            "point": 135,
+            "components": {
+                "P": 1,
+                "H": 3,
+                "O": 4
+            }
+        },
+        {
+            "name": "酸化銅",
+            "formula": "CuO",
+            "point": 17,
+            "components": {
+                "Cu": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "二酸化ケイ素",
+            "formula": "SiO2",
+            "point": 25,
+            "components": {
+                "Si": 1,
+                "O": 2
+            }
+        },
+        {
+            "name": "酸化ベリリウム",
+            "formula": "BeO",
+            "point": 10,
+            "components": {
+                "Be": 1,
+                "O": 1
+            }
+        },
+        {
+            "name": "ヘリウム",
+            "formula": "He",
+            "point": 3,
+            "components": {
+                "He": 1
+            }
+        },
+        {
+            "name": "アルゴン",
+            "formula": "Ar",
+            "point": 3,
+            "components": {
+                "Ar": 1
+            }
+        },
+        {
+            "name": "ネオン",
+            "formula": "Ne",
+            "point": 3,
+            "components": {
+                "Ne": 1
+            }
+        }
+    ]
+}
