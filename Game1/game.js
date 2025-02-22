@@ -7,7 +7,7 @@ let selectedElements = {};
 let aiHand = [];
 let aiPoints = 0;
 
-playerHand = [];
+let playerHand = [];
 let playerPoints = 0;
 let materials = []
 let imageCache = {}
